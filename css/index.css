@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #F3EFE0;
+}
+
+    header {
+
+    }
+
+        header .logo {
+            margin-left: 150px;
+            margin-top: 25px;
+            float: left;
+        }
+
+            header .logo img {
+                width: 84px;
+                height: 67px;
+            }
+        
+        header .navigation {
+            text-align: right;
+            margin-right: 35%;
+        }
+
+            header .navigation li {
+                font-size: 18px;
+                display: inline-block;
+               margin-top: 4.2%;
+                padding-right: 1.5%;
+            }
+
+                header .navigation li a {
+                    color: #BBB9B5;
+                    text-decoration: none;
+                }
+
+    .main {
+        margin-top: 5%;   
+    }
+
+        .main .post-img-01 {
+            width: 300px;
+            height: 180px;
+            background-image: url(../images/img-post-01.jpg);
+            background-position: center;
+            background-size: cover;
+            float: left;
+            margin-right: 3.5%;
+        }
+
+        .main .post-img-02 {
+            width: 300px;
+            height: 180px;
+            background-image: url(../images/img-post-02.jpg);
+            background-position: center;
+            background-size: cover;
+            float: left;
+            margin-right: 3.5%;
+        }
+
+        .main .post-img-03 {
+            width: 300px;
+            height: 180px;
+            background-image: url(../images/img-post-03.jpg);
+            background-position: center;
+            background-size: cover;
+            float: left;
+        }
+
+        .main .post-main {
+            width: 400px;
+            height: 100vh;
+            background-color: red;
+            float: left;
+            margin-top: -9.5%;
+            margin-left: -1.5%;
+        }
+
+        .main .black-box-img {
+            height: 180px;
+            width: 135px;
+            background-color: #4C5B5C;
+            float: left;
+        }
