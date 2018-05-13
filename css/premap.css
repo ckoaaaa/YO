@@ -1,0 +1,79 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;  
+}
+
+body {
+    background-image: url(../images/bg-map.jpg);
+    background-size: cover;
+}
+
+header {
+
+}
+
+    header .logo {
+        margin-left: 150px;
+        margin-top: 25px;
+        float: left;
+    }
+
+        header .logo img {
+            width: 84px;
+            height: 67px;
+        }
+    
+    header .navigation {
+        text-align: right;
+        margin-right: 10%;
+    }
+
+        header .navigation li {
+            font-size: 18px;
+            display: inline-block;
+           margin-top: 4%;
+            padding-right: 1.5%;
+        }
+            header .navigation li a {
+                color: #BBB9B5;
+                text-decoration: none;
+            }
+
+    main {
+
+    }
+
+        main .quote {
+            display: block;
+        }
+
+         main .quote h2 {
+            text-align: center;
+            margin-top: 100px;
+            color: #F3EFE0;
+            font-size: 30px;
+         }
+
+        main .button {
+            
+        }   
+        
+            main .button button {
+                background-color: #2F62B3;
+                width: 300px;
+                height: 80px;
+                border: 0;
+                display: block;
+                margin: 0 auto;
+                margin-top: 250px;
+                box-shadow: 2px 4px rgba(0, 0, 0, 0.5);
+            }
+
+            main .button button a {
+                color: #F3EFE0;
+                text-decoration: none;
+                text-align: center;
+                font-size: 26px;
+            }
